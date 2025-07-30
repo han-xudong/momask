@@ -259,3 +259,5 @@ if __name__ == '__main__':
             plot_3d_motion(save_path, kinematic_chain, joint, title=caption, fps=20)
             np.save(pjoin(joint_path, "sample%d_repeat%d_len%d.npy"%(k, r, m_length[k])), joint)
             np.save(pjoin(joint_path, "sample%d_repeat%d_len%d_ik.npy"%(k, r, m_length[k])), ik_joint)
+            print("Saved to %s"%save_path)
+            print("Saved to %s" % ik_save_path)

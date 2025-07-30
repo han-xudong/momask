@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf checkpoints
 mkdir checkpoints
 cd checkpoints

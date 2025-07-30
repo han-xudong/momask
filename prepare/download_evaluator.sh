@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd checkpoints
 
 cd t2m 

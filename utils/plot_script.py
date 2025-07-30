@@ -191,7 +191,6 @@ def plot_3d_motion_kit(save_path, kinematic_tree, joints, title, figsize=(5, 5),
     #     print(trajec.shape)
 
     def update(index):
-        #         print(index)
         ax.lines = []
         ax.collections = []
         ax.view_init(elev=110, azim=-90)
